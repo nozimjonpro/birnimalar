@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-top-right-radius: 50px;
+}
+
+.header__heading {
+  margin-left: 50px;
+  font-size: 28px;
+  color: #8eebec;
+}
+
+.header__burger {
+    font-size: 30px;
+  border: none;
+  margin-right: 50px;
+  background-color: transparent;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__search-input{
+    width: 280px;
+    margin-right: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    height: 35px;
+    border: none;
+    box-shadow: 0 0 2px 1px darkcyan;
+}

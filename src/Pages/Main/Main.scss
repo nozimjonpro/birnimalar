@@ -1,0 +1,209 @@
+.main__inner {
+  max-width: 700px;
+  margin-left: 60px;
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #2b547e;
+  border-radius: 20px;
+}
+
+.main__top-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__top-heading {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.main__select {
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.main__top-date {
+  color: rgba(255, 255, 0, 0.801);
+}
+
+.main__middle {
+  display: flex;
+  align-items: center;
+}
+
+.total__sum {
+  margin: 0;
+  font-size: 40px;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.total__usd {
+  color: #fff;
+  opacity: 0.6;
+}
+
+.profits__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+.store__profit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 5px solid yellow;
+}
+
+.profits__item {
+  margin-left: 10px;
+  &:last-child {
+    margin-right: 10px;
+  }
+}
+
+.profit__overview {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.store {
+  display: block;
+  margin-top: 20px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.main__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__bottom p {
+  margin: 0;
+  margin-top: 20px;
+}
+
+.main__bottom p span {
+  font-size: 23px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.main__bottom-link {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.main__bottom-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+  width: 100%;
+  margin: 0;
+  margin-left: 60px;
+  margin-top: 15px;
+  margin-right: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.main__bottom-item {
+    background-color: #fff;
+    padding: 10px;
+  &:first-child {
+    max-width: 400px;
+    width: 100%;
+    margin-right: 10px;
+  }
+  &:last-child {
+    max-width: 300px;
+    width: 100%;
+  }
+}
+
+.main__bottom-profit-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.main__bottom-heading{
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main__bottom-profit-item{
+    background-color: #eee;
+    text-align: center;
+}
+
+.main__bottom-profit-item + .main__bottom-profit-item{
+    margin-left: 5px ;
+}
+
+.main-bottom__text{
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    background-color: rgb(155, 155, 59);
+}
+
+.main__main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__right-side{
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+
+.main__right-top-list{
+    max-width: 350px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.main__right-item + .main__right-item{
+    margin-bottom: 25px;
+}
+
+.main__right-item{
+    display: flex;
+}
+
+.main__right-heading{
+    margin: 0;
+    text-align: center;
+}
